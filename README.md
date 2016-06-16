@@ -1,6 +1,7 @@
 # Preview in browser
 A Sketch.app plugin to properly view your design in browser.
 
+![Demo GIF](demo.gif "Demo")
 
 ### What does this plugin do?
 
