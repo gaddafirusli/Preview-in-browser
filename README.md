@@ -8,7 +8,7 @@ A Sketch.app plugin to properly view your design in browser.
 
 2. Your design will be aligned to the center of the browser. The background color on the empty spaces will be the same as the backgound color of your artboard
 
-3. Your artboard will be automatically scaled up to @2x for better preview on retina screens. (Provided that you design in @1x 😬)
+3. Your artboard will be automatically scaled up to @2x for better preview on retina displays. (Provided that you design in @1x 😬)
 
 ### How to use this plugin?
 1. [Download the plugin](https://github.com/gaddafirusli/Preview-in-browser/archive/master.zip)
@@ -18,7 +18,7 @@ A Sketch.app plugin to properly view your design in browser.
 5. ¯\_(ツ)_/¯
 
 ### Credits
-Thanks to Lastroom's [Sketch Command](https://github.com/lastroom/sketch-commands) for providing the base code for the preview method. All I did was to improve the HTML markup output, and add a method to scale the artboard to @2x - for better preview on retina screens.
+Thanks to Lastroom's [Sketch Command](https://github.com/lastroom/sketch-commands) for providing the base code for the preview method. All I did was to improve the HTML markup output, and add a method to scale the artboard to @2x - for better preview on retina displays.
 
 ### Contact
 Have any suggestions or feedbacks? Hit me up on Twitter [@gaddafirusli](http://www.twitter.com/gaddafirusli)
