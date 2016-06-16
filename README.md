@@ -6,7 +6,7 @@ A Sketch.app plugin to properly view your design in browser.
 
 1. View your artboard in browser, with proper scrolling - unlike Sketch Mirror's web preview feature.
 
-2. Your design will be aligned to the center of the browser. The background color on the empty spaces will be the same as the backgound color of your artboard
+2. Your design will be aligned to the center of the browser. The background color on the empty spaces will be the same as the background color of your artboard
 
 3. Your artboard will be automatically scaled up to @2x for better preview on retina displays. (Provided that you design in @1x 😬)
 
