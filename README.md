@@ -19,8 +19,14 @@ A Sketch.app plugin to properly view your design in browser.
 5. ¯\_(ツ)_/¯
 
 ### Change Logs
-21 Jun: Fix issue where artboard is duplicated in the document everytime you preview (bad code from previous change -__-)
+
+10 Nov: Fix for Sketch 41
+
 22 Jun: Temp fix to make it work with InVision Craft plugin enabled
+
+21 Jun: Fix issue where artboard is duplicated in the document everytime you preview (bad code from previous change -__-)
+
+
 
 
 ### Credits
@@ -28,5 +34,3 @@ Thanks to Lastroom's [Sketch Command](https://github.com/lastroom/sketch-command
 
 ### Contact
 Have any suggestions or feedbacks? Hit me up on Twitter [@gaddafirusli](http://www.twitter.com/gaddafirusli)
-
-
