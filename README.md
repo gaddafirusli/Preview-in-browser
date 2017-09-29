@@ -18,19 +18,5 @@ A Sketch.app plugin to properly view your design in browser.
 4. Use the keyboard shortcut  ```Cmd+Shift+.``` to open it in the browser (You'll have to do this on every changes as this is not a live preview of your artboard)
 5. ¯\_(ツ)_/¯
 
-### Change Logs
-
-10 Nov: Fix for Sketch 41
-
-22 Jun: Temp fix to make it work with InVision Craft plugin enabled
-
-21 Jun: Fix issue where artboard is duplicated in the document everytime you preview (bad code from previous change -__-)
-
-
-
-
-### Credits
-Thanks to Lastroom's [Sketch Command](https://github.com/lastroom/sketch-commands) for providing the base code for the preview method. All I did was to improve the code, clean up the HTML markup output, and add a method to scale the artboard to @2x - for better preview on retina displays.
-
 ### Contact
 Have any suggestions or feedbacks? Hit me up on Twitter [@gaddafirusli](http://www.twitter.com/gaddafirusli)
