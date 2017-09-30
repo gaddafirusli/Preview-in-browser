@@ -19,7 +19,7 @@ A Sketch.app plugin to properly view your design in browser.
 5. ¯\_(ツ)_/¯
 
 ### Credits
- -Thanks to Lastroom's [Sketch Command](https://github.com/lastroom/sketch-commands) for providing the base code for the preview method. All I did was to improve the code, clean up the HTML markup output, and add a method to scale the artboard to @2x - for better preview on retina displays.
+Thanks to Lastroom's [Sketch Command](https://github.com/lastroom/sketch-commands) for providing the base code for the preview method. All I did was to improve the code, clean up the HTML markup output, and add a method to scale the artboard to @2x - for better preview on retina displays.
 
 ### Contact
 Have any suggestions or feedbacks? Hit me up on Twitter [@gaddafirusli](http://www.twitter.com/gaddafirusli)
