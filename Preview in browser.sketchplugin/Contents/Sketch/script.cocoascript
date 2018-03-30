@@ -6,7 +6,7 @@ var onRun = function(context) {
     doc.showMessage("You must have at least one artboard.")
   } else {
     var artboardname = artboard.name()
-    artboardname = artboardname.replace(/[^a-zA-Z0-9]/g,'')
+    artboardname = artboardname.replace(/[/|?|#|<|>]/g,'')
     var filename = NSTemporaryDirectory() + artboardname + ".png"
     doc.saveArtboardOrSlice_toFile(scaleArtboard(artboard),filename)
     var htmlContent = NSString.stringWithString_("<html><head><meta charset='UTF-8'></head><body style='text-align: center; margin: 0; padding: 0; background:" + colorToRGBA(artboard.backgroundColor()) + ";'> <img width=" + (artboard.frame()).width() + " src='./" + artboardname + ".png' center top no-repeat;'></body></html>");
