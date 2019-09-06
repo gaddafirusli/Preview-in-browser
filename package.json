@@ -23,5 +23,6 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "gaddafirusli <gaddafirusli@gmail.com>"
+  "author": "gaddafirusli <gaddafirusli@gmail.com>",
+  "homepage": "https://github.com/gaddafirusli/Preview-in-browser"
 }
