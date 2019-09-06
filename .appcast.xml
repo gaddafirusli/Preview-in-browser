@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <item>
+      <enclosure url="https://github.com/gaddafirusli/Preview-in-browser/releases/download/v1.1.1/preview-in-browser.sketchplugin.zip" sparkle:version="1.1.1"/>
+    </item>
+  </channel>
+</rss>
