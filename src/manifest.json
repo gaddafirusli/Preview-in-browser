@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Preview in browser",
+      "identifier": "preview-in-browser.my-command-identifier",
+      "script": "./my-command.js",
+      "shortcut": "ctrl shift .",
+      "handlers": "onRun"
+    }
+  ],
+  "menu": {
+    "title": "Preview in browser",
+    "isRoot": true,
+    "items": ["preview-in-browser.my-command-identifier"]
+  }
+}
