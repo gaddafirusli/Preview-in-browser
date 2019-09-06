@@ -6,8 +6,7 @@
       "name": "Preview in browser",
       "identifier": "preview-in-browser.my-command-identifier",
       "script": "./my-command.js",
-      "shortcut": "cmd shift .",
-      "handlers": "onRun"
+      "shortcut": "cmd shift ."
     }
   ],
   "menu": {
