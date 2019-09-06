@@ -19,9 +19,11 @@ var onRun = function(context) {
     var filename = NSTemporaryDirectory() + artboardname + ".png";
     doc.saveArtboardOrSlice_toFile(scaleArtboard(artboard), filename);
     var htmlContent = NSString.stringWithString_(
-      "<html><head><meta charset='UTF-8'></head><body style='text-align: center; margin: 0; padding: 0; background:" +
+      "<html><head><meta charset='UTF-8'></head><body style='overflow-x: hidden; text-align: center; margin: 0; padding: 0; background:" +
         colorToRGBA(artboard.backgroundColor()) +
-        ";'> <img width=" +
+        ";'><img style='position:absolute; left:50%; margin-left:-" +
+        artboard.frame().width() / 2 +
+        "px;' width=" +
         artboard.frame().width() +
         " src='./" +
         artboardname +
