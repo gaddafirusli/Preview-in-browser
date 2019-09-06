@@ -1,7 +1,7 @@
 {
   "name": "preview-in-browser",
   "description": "Properly view your design in browser",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "engines": {
     "sketch": ">=49.0"
   },
