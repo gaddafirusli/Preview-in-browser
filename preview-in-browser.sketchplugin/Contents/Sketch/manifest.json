@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Preview in browser",
+      "identifier": "preview-in-browser.my-command-identifier",
+      "script": "__my-command.js",
+      "shortcut": "ctrl shift .",
+      "handlers": "onRun"
+    }
+  ],
+  "menu": {
+    "title": "Preview in browser",
+    "isRoot": true,
+    "items": [
+      "preview-in-browser.my-command-identifier"
+    ]
+  },
+  "version": "1.1.0",
+  "description": "Properly view your design in browser",
+  "name": "Preview in browser",
+  "identifier": "Preview in browser",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "gaddafirusli",
+  "authorEmail": "gaddafirusli@gmail.com"
+}

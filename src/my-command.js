@@ -1,4 +1,4 @@
-var onRun = function(context) {
+export default function(context) {
   var doc = context.document;
   var selections = context.selection;
   var artboard;
@@ -58,4 +58,4 @@ var onRun = function(context) {
       ")";
     return rgbaValue;
   }
-};
+}
